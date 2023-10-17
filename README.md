@@ -1,8 +1,20 @@
-# React + Vite
+# React + Vite + Netlify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 尝试直接 deploy 一个 react vite 到 netlify
 
-Currently, two official plugins are available:
+1. 安装基本的 vite react
+   2） 创建一个新的 github repo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+echo "# deployment_demo" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/peilutu/deployment_demo.git
+git push -u origin main
+
+当做了修改时，只要：
+git add .
+Git commit -m “changes”
+Git push
+就好了！
